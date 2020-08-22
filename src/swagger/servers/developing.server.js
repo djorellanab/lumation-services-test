@@ -1,15 +1,19 @@
 module.exports =         {
-    "url": "{protocol}://localhost{base}",
-    "description": "server for developer",
+    "url": "{protocol}://localhost{port}{base}",
+    "description": "It points to developer server",
     "variables":
     {
         "protocol":{
             "enum": ["http", "https"],
             "default": "http"
         },
+        "port":{
+            "enum": [":3003", ""],
+            "default": ":3003"
+        },
         "base":{
-            "enum": ["/wp-json/api/v1", ""],
-            "default": "/wp-json/api/v1"
+            "enum": ["/api", ""],
+            "default": "/api"
         }
     }
 }

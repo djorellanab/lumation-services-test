@@ -1,10 +1,9 @@
 module.exports = {
     "get":
     {
-        "tags": ["wordpress"],
-        "operationId": "service-wordpress-get-wpjson",
-        "summary": "Enpoint index API",
-        "description": "Endpoint gets status of API (Giving details of API)",
+        "tags": ["healthcheck"],
+        "summary": "Status of API",
+        "description": "This endpoint gives information about the API",
         "produces": ["application/json"],
         "responses":
         {
@@ -15,7 +14,7 @@ module.exports = {
                 {
                     "application/json":{
                         "schema":{
-                            "$ref": "#/components/schemas/Wpjson"
+                            "$ref": "#/components/schemas/Healthcheck"
                         }
                     }
                 }

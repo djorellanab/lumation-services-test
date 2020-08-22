@@ -1,3 +1,3 @@
 module.exports = {
-    "Wpjson": require("./wpjson.schema")
+    "Healthcheck": require("./healthcheck.schema")
 }

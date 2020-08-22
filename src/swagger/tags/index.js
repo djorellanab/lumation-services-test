@@ -1,7 +1,7 @@
 module.exports = 
 [
     {
-        "name": "wordpress",
-        "description": "it is default enpoint of wordpress"
+        "name": "healthcheck",
+        "description": "Details of the server"
     }
 ];

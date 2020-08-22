@@ -1,3 +1,7 @@
+# safe .gitkeep
+reports/*
+!reports/.gitkeep
+
 # Cache of VISUAL STUDIO
 .ionide/*
 

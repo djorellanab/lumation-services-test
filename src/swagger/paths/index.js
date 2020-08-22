@@ -1,3 +1,3 @@
 module.exports = {
-    "/wp-json": require("./wp-json.path")
+    "/healthcheck": require("./healthcheck.path")
 };
