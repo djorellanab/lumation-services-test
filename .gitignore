@@ -1,3 +1,6 @@
+# Cache of VISUAL STUDIO
+.ionide/*
+
 # Logs
 logs
 *.log
