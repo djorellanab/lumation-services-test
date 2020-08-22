@@ -1,0 +1,22 @@
+{
+  "name": "lumation-services-test",
+  "version": "1.0.0",
+  "description": "It is an evaluation for backend developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djorellanab/lumation-services-test.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "djorellanab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djorellanab/lumation-services-test/issues"
+  },
+  "homepage": "https://github.com/djorellanab/lumation-services-test#readme"
+}
