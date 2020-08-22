@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/djorellanab/lumation-services-test/issues"
   },
-  "homepage": "https://github.com/djorellanab/lumation-services-test#readme"
+  "homepage": "https://github.com/djorellanab/lumation-services-test#readme",
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "sequelize": "^6.3.4"
+  }
 }
