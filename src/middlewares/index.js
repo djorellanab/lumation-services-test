@@ -1,3 +1,7 @@
 module.exports = {
-    HealthcheckMiddleware: require("./healthcheck.middleware")
+    AccessMiddleware: require("./access.middleware"),
+    AuthenticationMiddleware: require("./authentication.middleware"),
+    HealthcheckMiddleware: require("./healthcheck.middleware"),
+    LogsMiddleware: require("./logs.middleware"),
+    ValidationMiddleware: require("./validation.middleware")
 };
